@@ -1,0 +1,16 @@
+C:\Users\kristijana\Downloads\imagekit-dotnet-master\Imagekit\bin\Debug\netstandard2.0\Imagekit.deps.json
+C:\Users\kristijana\Downloads\imagekit-dotnet-master\Imagekit\bin\Debug\netstandard2.0\Imagekit.dll
+C:\Users\kristijana\Downloads\imagekit-dotnet-master\Imagekit\bin\Debug\netstandard2.0\Imagekit.pdb
+C:\Users\kristijana\Downloads\imagekit-dotnet-master\Imagekit\obj\Debug\netstandard2.0\Imagekit.csprojAssemblyReference.cache
+C:\Users\kristijana\Downloads\imagekit-dotnet-master\Imagekit\obj\Debug\netstandard2.0\Imagekit.AssemblyInfoInputs.cache
+C:\Users\kristijana\Downloads\imagekit-dotnet-master\Imagekit\obj\Debug\netstandard2.0\Imagekit.AssemblyInfo.cs
+C:\Users\kristijana\Downloads\imagekit-dotnet-master\Imagekit\obj\Debug\netstandard2.0\Imagekit.dll
+C:\Users\kristijana\Downloads\imagekit-dotnet-master\Imagekit\obj\Debug\netstandard2.0\Imagekit.pdb
+C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\bin\Debug\netstandard2.0\Imagekit.deps.json
+C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\bin\Debug\netstandard2.0\Imagekit.dll
+C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\bin\Debug\netstandard2.0\Imagekit.pdb
+C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.csprojAssemblyReference.cache
+C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.AssemblyInfoInputs.cache
+C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.AssemblyInfo.cs
+C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.dll
+C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.pdb

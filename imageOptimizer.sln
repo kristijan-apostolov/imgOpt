@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "imageOptimizer", "imageOptimizer\imageOptimizer.csproj", "{76377005-7282-476E-8B87-654A12A5DACD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imagekit", "Imagekit\Imagekit.csproj", "{086178E4-8603-4730-966E-556E45CB8382}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76377005-7282-476E-8B87-654A12A5DACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76377005-7282-476E-8B87-654A12A5DACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76377005-7282-476E-8B87-654A12A5DACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76377005-7282-476E-8B87-654A12A5DACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086178E4-8603-4730-966E-556E45CB8382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086178E4-8603-4730-966E-556E45CB8382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086178E4-8603-4730-966E-556E45CB8382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086178E4-8603-4730-966E-556E45CB8382}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1116EAF2-72BD-4C67-8728-52DCD5ECE570}
+	EndGlobalSection
+EndGlobal
