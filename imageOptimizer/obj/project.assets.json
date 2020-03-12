@@ -3120,11 +3120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\imageOptimizer\\imageOptimizer.csproj",
+      "projectUniqueName": "C:\\projects\\imgOpt\\imageOptimizer\\imageOptimizer\\imageOptimizer.csproj",
       "projectName": "imageOptimizer",
-      "projectPath": "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\imageOptimizer\\imageOptimizer.csproj",
+      "projectPath": "C:\\projects\\imgOpt\\imageOptimizer\\imageOptimizer\\imageOptimizer.csproj",
       "packagesPath": "C:\\Users\\kristijana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\imageOptimizer\\obj\\",
+      "outputPath": "C:\\projects\\imgOpt\\imageOptimizer\\imageOptimizer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3144,8 +3144,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\Imagekit\\Imagekit.csproj": {
-              "projectPath": "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\Imagekit\\Imagekit.csproj"
+            "C:\\projects\\imgOpt\\imageOptimizer\\Imagekit\\Imagekit.csproj": {
+              "projectPath": "C:\\projects\\imgOpt\\imageOptimizer\\Imagekit\\Imagekit.csproj"
             }
           }
         }

@@ -44,31 +44,21 @@ namespace imageOptimizer
                     dict.Remove(entry.Key);
                     continue;
                 }
-                var counter = 1;
                 foreach (var imgPath in entry.Value)
                 {
-                    if(counter ==0)
-                    {
-                        
-                    }
-                    else
-                    {
-                        Console.WriteLine("Uploading img:" + imgPath + "...");
-                        //upload file
-                        var response = myUtils.UploadImg(imgPath);
-                      
-                        Console.WriteLine(response.message  + " " + response.statusCode);
-                        Console.WriteLine("uploaded finished");
-                        //download file 
-                        var imgBites = myUtils.DownloadImg(imgPath);
-                        //write info
-                        myUtils.ImgLog(imgPath, imgBites.Length);
+ 
+                  Console.WriteLine("Uploading img:" + imgPath + "...");
+                  //upload file
+                  myUtils.UploadImg(imgPath);
 
-                        //rewrite file
-                        myUtils.OverrideImg(imgPath, imgBites);
+                  Console.WriteLine("uploaded finished");
+                  //download file 
+                  var imgBites = myUtils.DownloadImg(imgPath);
+                  //write info
+                  myUtils.ImgLog(imgPath, imgBites.Length);
 
-                    }
-                    counter++;
+                  //rewrite file
+                  myUtils.OverrideImg(imgPath, imgBites);
                 }
             }
             myUtils.SaveImgReport(rootPath + "\\");

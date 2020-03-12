@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\Imagekit\\Imagekit.csproj": {}
+    "C:\\projects\\imgOpt\\imageOptimizer\\Imagekit\\Imagekit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\Imagekit\\Imagekit.csproj": {
+    "C:\\projects\\imgOpt\\imageOptimizer\\Imagekit\\Imagekit.csproj": {
       "version": "3.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\Imagekit\\Imagekit.csproj",
+        "projectUniqueName": "C:\\projects\\imgOpt\\imageOptimizer\\Imagekit\\Imagekit.csproj",
         "projectName": "Imagekit",
-        "projectPath": "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\Imagekit\\Imagekit.csproj",
+        "projectPath": "C:\\projects\\imgOpt\\imageOptimizer\\Imagekit\\Imagekit.csproj",
         "packagesPath": "C:\\Users\\kristijana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kristijana\\Source\\Repos\\imageOptimizer\\Imagekit\\obj\\",
+        "outputPath": "C:\\projects\\imgOpt\\imageOptimizer\\Imagekit\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

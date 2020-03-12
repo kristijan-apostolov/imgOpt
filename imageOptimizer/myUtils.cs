@@ -34,14 +34,13 @@ namespace imageOptimizer
             return downloadedImg;
         }
 
-        public static ImagekitResponse UploadImg(string imgPath)
+        public static void UploadImg(string imgPath)
         {
             var imgName = System.IO.Path.GetFileName(imgPath);
             byte[] file = System.IO.File.ReadAllBytes(imgPath);
             var resp = imagekit.FileName(imgName);
             resp.UseUniqueFileName("false");
             ImagekitResponse response = resp.Upload(file);
-            return response;
         }
         public static void OverrideImg(string imgPath , byte[] imgBites)
         {
