@@ -14,3 +14,10 @@ C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.
 C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.AssemblyInfo.cs
 C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.dll
 C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.pdb
+C:\projects\imgOpt\imageOptimizer\Imagekit\bin\Debug\netstandard2.0\Imagekit.deps.json
+C:\projects\imgOpt\imageOptimizer\Imagekit\bin\Debug\netstandard2.0\Imagekit.dll
+C:\projects\imgOpt\imageOptimizer\Imagekit\bin\Debug\netstandard2.0\Imagekit.pdb
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.AssemblyInfoInputs.cache
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.AssemblyInfo.cs
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.dll
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\netstandard2.0\Imagekit.pdb

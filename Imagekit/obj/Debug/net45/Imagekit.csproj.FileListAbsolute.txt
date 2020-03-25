@@ -16,3 +16,11 @@ C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\net45\Imageki
 C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\net45\Imagekit.csproj.CopyComplete
 C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\net45\Imagekit.dll
 C:\Users\kristijana\Source\Repos\imageOptimizer\Imagekit\obj\Debug\net45\Imagekit.pdb
+C:\projects\imgOpt\imageOptimizer\Imagekit\bin\Debug\net45\Imagekit.dll
+C:\projects\imgOpt\imageOptimizer\Imagekit\bin\Debug\net45\Imagekit.pdb
+C:\projects\imgOpt\imageOptimizer\Imagekit\bin\Debug\net45\Newtonsoft.Json.dll
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\net45\Imagekit.AssemblyInfoInputs.cache
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\net45\Imagekit.AssemblyInfo.cs
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\net45\Imagekit.csproj.CopyComplete
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\net45\Imagekit.dll
+C:\projects\imgOpt\imageOptimizer\Imagekit\obj\Debug\net45\Imagekit.pdb

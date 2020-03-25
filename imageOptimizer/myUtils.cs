@@ -15,6 +15,7 @@ namespace imageOptimizer
         public static string urlEndPoint = "https://ik.imagekit.io/6ubty6n6g/";
         public static Imagekit.Imagekit imagekit = new Imagekit.Imagekit(publicKey, privateKey , urlEndPoint , "path");
         public static StringBuilder imgReport =  new StringBuilder();
+        public static StringBuilder lastImgError = new StringBuilder();
 
         public static byte[] DownloadImg(string imgPath)
         {
@@ -23,6 +24,7 @@ namespace imageOptimizer
             var imgName = System.IO.Path.GetFileName(imgPath);
            
             imgName = imgName.Replace(" ","_").Replace("[" , "_").Replace("]","_").Replace("(","_").Replace(")","_");
+            
 
             var absoluteImagePath = urlEndPoint + imgName;
             
@@ -36,11 +38,24 @@ namespace imageOptimizer
 
         public static void UploadImg(string imgPath)
         {
-            var imgName = System.IO.Path.GetFileName(imgPath);
-            byte[] file = System.IO.File.ReadAllBytes(imgPath);
-            var resp = imagekit.FileName(imgName);
-            resp.UseUniqueFileName("false");
-            ImagekitResponse response = resp.Upload(file);
+            try
+            {
+                var imgName = System.IO.Path.GetFileName(imgPath);
+                byte[] file = System.IO.File.ReadAllBytes(imgPath);
+                var resp = imagekit.FileName(imgName);
+                resp.UseUniqueFileName("false");
+                
+                var absoluteImagePath = urlEndPoint + imgName;
+                //ImagekitResponse response = resp.Upload(file);
+                ImagekitResponse response = resp.Upload(imgPath);
+
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
         public static void OverrideImg(string imgPath , byte[] imgBites)
         {
@@ -69,6 +84,12 @@ namespace imageOptimizer
             File.AppendAllText(filePath + "log.txt", imgReport.ToString());
             imgReport.Clear();
         }
+        public static void LogLastImage(string imgPath , string rootPath)
+        {
+            lastImgError.Append(imgPath);
+            File.AppendAllText(rootPath + "imgError.txt", lastImgError.ToString());
+            lastImgError.Clear();
         }
+    }
     }
 

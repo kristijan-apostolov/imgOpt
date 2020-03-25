@@ -221,28 +221,57 @@ namespace Imagekit
 
         public ImagekitResponse Upload(byte[] file)
         {
-            Uri apiEndpoint = new Uri(Utils.GetUploadApi());
+            try
+            {
+                Uri apiEndpoint = new Uri(Utils.GetUploadApi());
+                
+                var response = Utils.PostUpload(apiEndpoint, getUploadData(), file, (string)options["privateKey"]);
+                response.EnsureSuccessStatusCode();
+                var responseContent = response.Content.ReadAsStringAsync();
 
-            var response = Utils.PostUpload(apiEndpoint, getUploadData(), file, (string)options["privateKey"]);
-            response.EnsureSuccessStatusCode();
-            var responseContent = response.Content.ReadAsStringAsync();
-
-            return JsonConvert.DeserializeObject<ImagekitResponse>(responseContent.Result);
+                return JsonConvert.DeserializeObject<ImagekitResponse>(responseContent.Result);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }  
         }
 
 
         public ImagekitResponse Upload(string file)
         {
+            var response = new HttpResponseMessage();
+            try
+            {
+
+            
             if (string.IsNullOrEmpty(file))
             {
                 throw new ArgumentException(errorMessages.MISSING_UPLOAD_FILE_PARAMETER);
             }
             Uri apiEndpoint = new Uri(Utils.GetUploadApi());
 
-            var response = Utils.PostUpload(apiEndpoint, getUploadData(), file, (string)options["privateKey"]);
+            response = Utils.PostUpload(apiEndpoint, getUploadData(), file, (string)options["privateKey"]);
             response.EnsureSuccessStatusCode();
+
+            IEnumerable<string> errorResponse;
+            var success  = response.Headers.TryGetValues("X-RateLimit-Reset", out errorResponse);
+
+            if (success)
+            {
+                var firstErrorValue = errorResponse.ToList().First();
+            }
+
+
             var responseContent = response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<ImagekitResponse>(responseContent.Result);
+            }
+            catch (Exception ex)
+            {
+                var r = response;
+                return null;
+            }
+
         }
 
         public Dictionary<string, string> getUploadData()

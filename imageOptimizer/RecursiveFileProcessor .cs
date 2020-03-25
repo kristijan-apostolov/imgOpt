@@ -44,15 +44,15 @@ namespace imageOptimizer
         public static void ProcessFile(string path)
         {
             long length = new System.IO.FileInfo(path).Length;
-            if (length > 1024000)
+            if (length > 1024000 || length  < 10000)
             {
                 imagesPathsOver1mb.Add(path);
- 
             }
             else
             {
                 tmpImagesPaths.Add(path);
             }
+
         }
 
         public static class CustomDirectoryTools
